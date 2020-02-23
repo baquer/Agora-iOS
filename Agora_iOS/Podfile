@@ -1,0 +1,16 @@
+platform :ios, '9.0'
+
+target 'Agora_iOS' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Agora_iOS
+
+  pod 'IQKeyboardManagerSwift'
+
+  target 'Agora_iOSUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
