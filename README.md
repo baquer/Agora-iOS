@@ -45,3 +45,15 @@ Run the app (⌘+R).and test it.
 
 # Screenshots or Work Uptil Now
 
+<table>
+  <tr>
+    <td><img src="/Screenshots/Screenshot 2020-02-24 at 2.59.30 AM.png" height = "545" width="271.25"></td>
+    <td><img src="/Screenshots/Screenshot 2020-02-24 at 2.59.57 AM.png" height = "545" width="271.25"></td>
+    <td><img src="/Screenshots/Screenshot 2020-02-24 at 3.00.05 AM.png" height = "545" width="271.25"></td>
+  </tr>
+  <tr>
+    <td><img src="/Screenshots/Screenshot 2020-02-24 at 3.00.13 AM.png" height = "545" width="271.25"></td>
+  </tr>
+</table>
+
+**More Will be Updated after designing Sign up UI/Ux and implementing Log In Feature**
