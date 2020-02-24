@@ -7,12 +7,13 @@
 //
 
 import UIKit
+import Material
 
 class ForgotPasswordViewController: UIViewController {
     
     
     
-    @IBOutlet weak var userNameTextField: UITextField!    
+    @IBOutlet weak var userNameTextField: TextField!
     @IBOutlet weak var sendLinkButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,7 +23,8 @@ class ForgotPasswordViewController: UIViewController {
     
     func setUpAttributes() {
         sendLinkButton.layer.cornerRadius = 25.0
-        Utilities.styleTextField(userNameTextField)
+        userNameTextField.dividerNormalColor = UIColor.systemOrange
+        userNameTextField.dividerActiveColor = UIColor.systemOrange
     }
 
 }

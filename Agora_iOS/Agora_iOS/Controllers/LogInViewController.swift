@@ -7,14 +7,15 @@
 //
 
 import UIKit
+import Material
 
 class LogInViewController: UIViewController {
     
     
     
     
-    @IBOutlet weak var userNameTextField: UITextField!
-    @IBOutlet weak var passwordTextField: UITextField!
+    @IBOutlet weak var userNameTextField: TextField!
+    @IBOutlet weak var passwordTextField: TextField!
     @IBOutlet weak var loginButton: UIButton!
     
     
@@ -26,7 +27,10 @@ class LogInViewController: UIViewController {
     
     func setUpAttributes() {
         loginButton.layer.cornerRadius = 20.0
-        Utilities.styleTextField(userNameTextField)
-        Utilities.styleTextField(passwordTextField)
+        passwordTextField.isVisibilityIconButtonEnabled = true
+        passwordTextField.dividerNormalColor = UIColor.systemOrange
+        passwordTextField.dividerActiveColor = UIColor.systemOrange
+        userNameTextField.dividerNormalColor = UIColor.systemOrange
+        userNameTextField.dividerActiveColor = UIColor.systemOrange
     }
 }
