@@ -268,44 +268,12 @@
             <objects>
                 <viewController title="SignUpViewController" id="UND-Bt-PaQ" customClass="SignUpViewController" customModule="Agora_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="O8l-4F-wb9">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ehg-Dc-fch">
-                                <rect key="frame" x="0.0" y="88" width="414" height="1112"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OHH-6n-jO3">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1112"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="1200" id="Cve-WT-uJT"/>
-                                        </constraints>
-                                    </view>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="OHH-6n-jO3" firstAttribute="bottom" secondItem="AiA-th-zwn" secondAttribute="bottom" id="9Tm-n1-gtq"/>
-                                    <constraint firstAttribute="bottom" secondItem="OHH-6n-jO3" secondAttribute="bottom" id="JJy-8Q-XQx"/>
-                                    <constraint firstAttribute="trailing" secondItem="OHH-6n-jO3" secondAttribute="trailing" id="Kos-v3-8VP"/>
-                                    <constraint firstItem="OHH-6n-jO3" firstAttribute="leading" secondItem="AiA-th-zwn" secondAttribute="leading" id="ir2-yT-eFp"/>
-                                    <constraint firstItem="OHH-6n-jO3" firstAttribute="top" secondItem="AiA-th-zwn" secondAttribute="top" id="khm-pO-On0"/>
-                                    <constraint firstItem="OHH-6n-jO3" firstAttribute="trailing" secondItem="AiA-th-zwn" secondAttribute="trailing" id="qaG-HC-ve4"/>
-                                </constraints>
-                                <viewLayoutGuide key="contentLayoutGuide" id="NEg-rK-pD8"/>
-                                <viewLayoutGuide key="frameLayoutGuide" id="AiA-th-zwn"/>
-                            </scrollView>
-                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="Ehg-Dc-fch" firstAttribute="top" secondItem="V9r-7j-bSp" secondAttribute="top" id="3sm-hz-HCa"/>
-                            <constraint firstItem="OHH-6n-jO3" firstAttribute="width" secondItem="O8l-4F-wb9" secondAttribute="width" id="OVY-tb-GyA"/>
-                            <constraint firstItem="Ehg-Dc-fch" firstAttribute="leading" secondItem="V9r-7j-bSp" secondAttribute="leading" id="ULD-lq-nXA"/>
-                            <constraint firstItem="Ehg-Dc-fch" firstAttribute="trailing" secondItem="V9r-7j-bSp" secondAttribute="trailing" id="VIf-6J-q1s"/>
-                            <constraint firstAttribute="bottom" secondItem="Ehg-Dc-fch" secondAttribute="bottom" id="tRI-xR-L7C"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="V9r-7j-bSp"/>
                     </view>
                     <navigationItem key="navigationItem" title="Sign Up" id="gYl-vw-z53"/>
-                    <size key="freeformSize" width="414" height="1200"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ftl-Rj-Qd8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
