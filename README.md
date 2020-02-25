@@ -49,10 +49,14 @@ Run the app (⌘+R).and test it.
   <tr>
     <td><img src="/Screenshots/Screenshot 2020-02-24 at 2.59.30 AM.png" height = "545" width="271.25"></td>
     <td><img src="/Screenshots/Screenshot 2020-02-24 at 2.59.57 AM.png" height = "545" width="271.25"></td>
-    <td><img src="/Screenshots/Screenshot 2020-02-24 at 3.00.05 AM.png" height = "545" width="271.25"></td>
+    <td><img src="/Screenshots/Screenshot 2020-02-26 at 12.16.25 AM.png" height = "545" width="271.25"></td>
   </tr>
   <tr>
     <td><img src="/Screenshots/Screenshot 2020-02-24 at 3.00.13 AM.png" height = "545" width="271.25"></td>
+    <td><img src="/Screenshots/Screenshot 2020-02-26 at 12.55.02 AM.png" height = "545" width="271.25"></td>
+    <td><img src="/Screenshots/Screenshot 2020-02-26 at 12.54.28 AM.png" height = "545" width="271.25"></td>
+  </tr>
+  </tr>
   </tr>
 </table>
 
