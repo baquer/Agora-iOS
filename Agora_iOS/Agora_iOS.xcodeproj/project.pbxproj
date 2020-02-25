@@ -19,6 +19,7 @@
 		8025F8482402FEFA00B49D71 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8025F8472402FEFA00B49D71 /* LogInViewController.swift */; };
 		80441426240312B00057DF38 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80441425240312B00057DF38 /* Utilities.swift */; };
 		804414292403190C0057DF38 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804414282403190C0057DF38 /* ForgotPasswordViewController.swift */; };
+		80A17CFE2405AA7300E5050B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A17CFD2405AA7300E5050B /* Constants.swift */; };
 		D5863ED74A0BA2ABA76E24EE /* Pods_Agora_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66478B0DA865994732660E05 /* Pods_Agora_iOSUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,7 @@
 		8025F8472402FEFA00B49D71 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		80441425240312B00057DF38 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		804414282403190C0057DF38 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		80A17CFD2405AA7300E5050B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		CFC50E1252B8C328F3041BA5 /* Pods-Agora_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Agora_iOS.release.xcconfig"; path = "Target Support Files/Pods-Agora_iOS/Pods-Agora_iOS.release.xcconfig"; sourceTree = "<group>"; };
 		E61BAA4E29DA291A734EE3BC /* Pods-Agora_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Agora_iOS.debug.xcconfig"; path = "Target Support Files/Pods-Agora_iOS/Pods-Agora_iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		EC71B11DC1E5773CB2A26E16 /* Pods_Agora_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Agora_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,6 +134,7 @@
 			children = (
 				80441425240312B00057DF38 /* Utilities.swift */,
 				8001313824014E830038D48F /* SceneDelegate.swift */,
+				80A17CFD2405AA7300E5050B /* Constants.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -350,6 +353,7 @@
 				8025F8462402FEE800B49D71 /* SignUpViewController.swift in Sources */,
 				8025F8482402FEFA00B49D71 /* LogInViewController.swift in Sources */,
 				8001313924014E830038D48F /* SceneDelegate.swift in Sources */,
+				80A17CFE2405AA7300E5050B /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
