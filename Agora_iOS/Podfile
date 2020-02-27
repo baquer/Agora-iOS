@@ -9,6 +9,7 @@ target 'Agora_iOS' do
   pod 'IQKeyboardManagerSwift'
   pod 'Material'
   pod 'IQDropDownTextField'
+  pod 'Alamofire'
 
   target 'Agora_iOSUITests' do
     inherit! :search_paths

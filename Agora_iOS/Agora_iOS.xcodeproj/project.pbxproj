@@ -20,6 +20,8 @@
 		80441426240312B00057DF38 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80441425240312B00057DF38 /* Utilities.swift */; };
 		804414292403190C0057DF38 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804414282403190C0057DF38 /* ForgotPasswordViewController.swift */; };
 		80A17CFE2405AA7300E5050B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A17CFD2405AA7300E5050B /* Constants.swift */; };
+		80AD62A8240839E1001B1C42 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AD62A7240839E1001B1C42 /* Client.swift */; };
+		80AD62AA24083A4A001B1C42 /* Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AD62A924083A4A001B1C42 /* Convenience.swift */; };
 		D5863ED74A0BA2ABA76E24EE /* Pods_Agora_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66478B0DA865994732660E05 /* Pods_Agora_iOSUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +54,8 @@
 		80441425240312B00057DF38 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		804414282403190C0057DF38 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		80A17CFD2405AA7300E5050B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		80AD62A7240839E1001B1C42 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		80AD62A924083A4A001B1C42 /* Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Convenience.swift; sourceTree = "<group>"; };
 		CFC50E1252B8C328F3041BA5 /* Pods-Agora_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Agora_iOS.release.xcconfig"; path = "Target Support Files/Pods-Agora_iOS/Pods-Agora_iOS.release.xcconfig"; sourceTree = "<group>"; };
 		E61BAA4E29DA291A734EE3BC /* Pods-Agora_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Agora_iOS.debug.xcconfig"; path = "Target Support Files/Pods-Agora_iOS/Pods-Agora_iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		EC71B11DC1E5773CB2A26E16 /* Pods_Agora_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Agora_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,7 +114,7 @@
 		8001313524014E830038D48F /* Agora_iOS */ = {
 			isa = PBXGroup;
 			children = (
-				804414272403153C0057DF38 /* Model */,
+				804414272403153C0057DF38 /* Client */,
 				8001313624014E830038D48F /* AppDelegate.swift */,
 				8025F8442402FD7300B49D71 /* Story Boards */,
 				8025F8432402FD6800B49D71 /* Controllers */,
@@ -160,11 +164,13 @@
 			path = "Story Boards";
 			sourceTree = "<group>";
 		};
-		804414272403153C0057DF38 /* Model */ = {
+		804414272403153C0057DF38 /* Client */ = {
 			isa = PBXGroup;
 			children = (
+				80AD62A7240839E1001B1C42 /* Client.swift */,
+				80AD62A924083A4A001B1C42 /* Convenience.swift */,
 			);
-			path = Model;
+			path = Client;
 			sourceTree = "<group>";
 		};
 		85C96BB42D6FEBDCCF1B2BFC /* Pods */ = {
@@ -347,6 +353,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				80441426240312B00057DF38 /* Utilities.swift in Sources */,
+				80AD62AA24083A4A001B1C42 /* Convenience.swift in Sources */,
 				804414292403190C0057DF38 /* ForgotPasswordViewController.swift in Sources */,
 				8001313B24014E830038D48F /* HomeLoginViewController.swift in Sources */,
 				8001313724014E830038D48F /* AppDelegate.swift in Sources */,
@@ -354,6 +361,7 @@
 				8025F8482402FEFA00B49D71 /* LogInViewController.swift in Sources */,
 				8001313924014E830038D48F /* SceneDelegate.swift in Sources */,
 				80A17CFE2405AA7300E5050B /* Constants.swift in Sources */,
+				80AD62A8240839E1001B1C42 /* Client.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
