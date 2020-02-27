@@ -10,6 +10,7 @@ target 'Agora_iOS' do
   pod 'Material'
   pod 'IQDropDownTextField'
   pod 'Alamofire'
+  pod 'Toast-Swift'
 
   target 'Agora_iOSUITests' do
     inherit! :search_paths

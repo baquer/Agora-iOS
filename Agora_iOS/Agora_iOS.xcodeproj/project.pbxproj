@@ -22,6 +22,7 @@
 		80A17CFE2405AA7300E5050B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A17CFD2405AA7300E5050B /* Constants.swift */; };
 		80AD62A8240839E1001B1C42 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AD62A7240839E1001B1C42 /* Client.swift */; };
 		80AD62AA24083A4A001B1C42 /* Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AD62A924083A4A001B1C42 /* Convenience.swift */; };
+		80AD62B024084744001B1C42 /* LoginMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AD62AF24084744001B1C42 /* LoginMethods.swift */; };
 		D5863ED74A0BA2ABA76E24EE /* Pods_Agora_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66478B0DA865994732660E05 /* Pods_Agora_iOSUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,7 @@
 		80A17CFD2405AA7300E5050B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		80AD62A7240839E1001B1C42 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
 		80AD62A924083A4A001B1C42 /* Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Convenience.swift; sourceTree = "<group>"; };
+		80AD62AF24084744001B1C42 /* LoginMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginMethods.swift; sourceTree = "<group>"; };
 		CFC50E1252B8C328F3041BA5 /* Pods-Agora_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Agora_iOS.release.xcconfig"; path = "Target Support Files/Pods-Agora_iOS/Pods-Agora_iOS.release.xcconfig"; sourceTree = "<group>"; };
 		E61BAA4E29DA291A734EE3BC /* Pods-Agora_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Agora_iOS.debug.xcconfig"; path = "Target Support Files/Pods-Agora_iOS/Pods-Agora_iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		EC71B11DC1E5773CB2A26E16 /* Pods_Agora_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Agora_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -146,10 +148,10 @@
 		8025F8432402FD6800B49D71 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				8001313A24014E830038D48F /* HomeLoginViewController.swift */,
-				8025F8452402FEE800B49D71 /* SignUpViewController.swift */,
-				8025F8472402FEFA00B49D71 /* LogInViewController.swift */,
-				804414282403190C0057DF38 /* ForgotPasswordViewController.swift */,
+				80AD62AE24084360001B1C42 /* Forgot password controller */,
+				80AD62AD24084353001B1C42 /* Signup Controller */,
+				80AD62AC2408433E001B1C42 /* Home Login Controller */,
+				80AD62AB2408430B001B1C42 /* Login Controller */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -171,6 +173,39 @@
 				80AD62A924083A4A001B1C42 /* Convenience.swift */,
 			);
 			path = Client;
+			sourceTree = "<group>";
+		};
+		80AD62AB2408430B001B1C42 /* Login Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8025F8472402FEFA00B49D71 /* LogInViewController.swift */,
+				80AD62AF24084744001B1C42 /* LoginMethods.swift */,
+			);
+			path = "Login Controller";
+			sourceTree = "<group>";
+		};
+		80AD62AC2408433E001B1C42 /* Home Login Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8001313A24014E830038D48F /* HomeLoginViewController.swift */,
+			);
+			path = "Home Login Controller";
+			sourceTree = "<group>";
+		};
+		80AD62AD24084353001B1C42 /* Signup Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8025F8452402FEE800B49D71 /* SignUpViewController.swift */,
+			);
+			path = "Signup Controller";
+			sourceTree = "<group>";
+		};
+		80AD62AE24084360001B1C42 /* Forgot password controller */ = {
+			isa = PBXGroup;
+			children = (
+				804414282403190C0057DF38 /* ForgotPasswordViewController.swift */,
+			);
+			path = "Forgot password controller";
 			sourceTree = "<group>";
 		};
 		85C96BB42D6FEBDCCF1B2BFC /* Pods */ = {
@@ -354,6 +389,7 @@
 			files = (
 				80441426240312B00057DF38 /* Utilities.swift in Sources */,
 				80AD62AA24083A4A001B1C42 /* Convenience.swift in Sources */,
+				80AD62B024084744001B1C42 /* LoginMethods.swift in Sources */,
 				804414292403190C0057DF38 /* ForgotPasswordViewController.swift in Sources */,
 				8001313B24014E830038D48F /* HomeLoginViewController.swift in Sources */,
 				8001313724014E830038D48F /* AppDelegate.swift in Sources */,

@@ -31,4 +31,17 @@ class Constants {
         static let invalidURL = "Error: invalid URL"
         static let requestMethod = "makeRequestMethod"
     }
+    
+    struct headerParamKeys {
+        static let contentType = "Content-Type"
+        static let json = "application/json"
+    }
+    
+    struct userDefaultParamKeys {
+    }
+    
+    struct errorMessages {
+        static let userNameError = "Please enter a user name"
+        static let passwordError = "Please enter a valid password"
+    }
 }

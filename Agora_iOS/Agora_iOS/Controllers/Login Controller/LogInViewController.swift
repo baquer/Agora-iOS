@@ -23,6 +23,8 @@ class LogInViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setUpAttributes()
+        addDelegates()
+        loginButtonPressed()
     }
     
     func setUpAttributes() {
@@ -32,5 +34,6 @@ class LogInViewController: UIViewController {
         passwordTextField.dividerActiveColor = UIColor.systemOrange
         userNameTextField.dividerNormalColor = UIColor.systemOrange
         userNameTextField.dividerActiveColor = UIColor.systemOrange
+        passwordTextField.addTarget(self, action: #selector(textFieldDidChange(textField:)), for: .editingChanged)
     }
 }

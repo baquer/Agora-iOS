@@ -16,7 +16,7 @@ extension Client {
         let url = Constants.APIURL.loginURL
 
         let headerLogin = [
-    "Content-Type": "application/json"
+            Constants.headerParamKeys.contentType: Constants.headerParamKeys.json
         ]
     _ = makeRequest(url, .post, headerLogin, parameters: params, completion: { (results, status, message) in
 
