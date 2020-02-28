@@ -118,8 +118,8 @@
 		8001313524014E830038D48F /* Agora_iOS */ = {
 			isa = PBXGroup;
 			children = (
-				804414272403153C0057DF38 /* Client */,
 				8001313624014E830038D48F /* AppDelegate.swift */,
+				804414272403153C0057DF38 /* Client */,
 				8025F8442402FD7300B49D71 /* Story Boards */,
 				8025F8432402FD6800B49D71 /* Controllers */,
 				8025F8422402FD5D00B49D71 /* Helpers */,
