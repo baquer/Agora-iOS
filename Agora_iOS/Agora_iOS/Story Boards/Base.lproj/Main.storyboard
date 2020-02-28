@@ -10,7 +10,7 @@
         <!--Home-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="HomeLoginViewController" customModule="Agora_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeVC" id="BYZ-38-t0r" customClass="HomeLoginViewController" customModule="Agora_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -183,6 +183,7 @@
                         <outlet property="loginButton" destination="B40-fI-s3k" id="fia-oI-pau"/>
                         <outlet property="passwordTextField" destination="Nky-9d-n4b" id="ZMq-Rf-0PV"/>
                         <outlet property="userNameTextField" destination="S6s-Uy-kA7" id="VJo-hM-MEo"/>
+                        <segue destination="AgH-we-q5y" kind="show" identifier="DashboardVC" id="al2-JB-epG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m8A-ca-2Xc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -433,6 +434,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ftl-Rj-Qd8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1828.985507246377" y="-150"/>
+        </scene>
+        <!--DashboardViewController-->
+        <scene sceneID="CN3-PD-Lsh">
+            <objects>
+                <viewController storyboardIdentifier="DashboardVC" title="DashboardViewController" id="AgH-we-q5y" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Tu5-BS-XnR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="YOx-za-IMJ"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="JAz-aE-hPO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pXL-Mh-1Yk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2676" y="-194"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="XKF-14-Q8Q">

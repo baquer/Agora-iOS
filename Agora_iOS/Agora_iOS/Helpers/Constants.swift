@@ -38,10 +38,34 @@ class Constants {
     }
     
     struct userDefaultParamKeys {
+        static let userName = "userName"
+        static let firstName = "firstName"
+        static let lastName = "lastName"
+        static let email = "email"
+        static let expiresOn = "expiresOn"
+        static let token = "token"
     }
     
     struct errorMessages {
         static let userNameError = "Please enter a user name"
         static let passwordError = "Please enter a valid password"
+    }
+    
+    struct loginParameters {
+        static let identifier = "identifier"
+        static let password = "password"
+    }
+    
+    struct loginDatakey {
+        static let userName = "username"
+        static let firstName = "firstName"
+        static let lastName = "lastName"
+        static let email = "email"
+        static let expiresOn = "expiresOn"
+        static let token = "token"
+    }
+    
+    struct segueIdentifier {
+        static let dashboardSegue = "DashboardVC"
     }
 }
