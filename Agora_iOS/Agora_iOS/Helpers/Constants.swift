@@ -68,4 +68,12 @@ class Constants {
     struct segueIdentifier {
         static let dashboardSegue = "DashboardVC"
     }
+    
+    struct resetConst {
+        static let baseURL = "https://agora-rest-api.herokuapp.com"
+        static let methodURL = "/api/v1/auth/forgotPassword/send/"
+        static let successMessage = "Reset link Sent successfully"
+        static let failureMessage = "Reset Link sent successfully"
+        static let paramaters = "userName"
+    }
 }

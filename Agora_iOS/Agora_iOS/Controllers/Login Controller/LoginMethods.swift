@@ -120,6 +120,7 @@ extension LogInViewController: UITextFieldDelegate  {
                                 UserDefaults.standard.set(token, forKey: Constants.userDefaultParamKeys.token)
                             }
                         }
+                        self.view.makeToast("Successfully Logged In")
                         self.performSegue(withIdentifier: Constants.segueIdentifier.dashboardSegue, sender: nil)
                     }
                 }

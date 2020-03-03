@@ -51,5 +51,9 @@ class Client: NSObject {
                 }
         }
     }
+    
+    func getApiUrl(_ apiUrl: String, _ method: String = "", _ param: String = "") -> String {
+        return "\(apiUrl)\(method)\(param)"
+    }
 }
 
