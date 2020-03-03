@@ -55,7 +55,10 @@ Run the app (⌘+R).and test it.
     <td><img src="/Screenshots/Screenshot 2020-02-24 at 3.00.13 AM.png" height = "545" width="271.25"></td>
     <td><img src="/Screenshots/Screenshot 2020-02-26 at 12.55.02 AM.png" height = "545" width="271.25"></td>
     <td><img src="/Screenshots/Screenshot 2020-02-26 at 12.54.28 AM.png" height = "545" width="271.25"></td>
+  </tr>
+  <tr>
     <td><img src="/Screenshots/Screenshot 2020-02-28 at 10.10.18 PM.png" height = "545" width="271.25"></td>
+    <td><img src="/Screenshots/Screenshot 2020-03-04 at 1.32.24 AM.png" height = "545" width="271.25"></td>
   </tr>
   </tr>
   </tr>
