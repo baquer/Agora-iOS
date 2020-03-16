@@ -42,6 +42,9 @@
     <td>Casting Vote<img src="/mockup/VoteUser.png" height = "500" width="500"></td>
   </tr>
   <tr>
+    <td>Invite voter<img src="/mockup/InviteVoters.png" height = "500" width="500"></td>
+  </tr>
+  <tr>
     <td>See and edit profile<img src="/mockup/Profile.png" height = "500" width="500"></td>
   </tr>
   <tr>
