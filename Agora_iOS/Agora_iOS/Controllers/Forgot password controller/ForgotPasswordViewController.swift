@@ -30,6 +30,7 @@ class ForgotPasswordViewController: UIViewController {
         userNameTextField.dividerActiveColor = UIColor.systemOrange
         userNameTextField.placeholderLabel.textColor = .white
         userNameTextField.placeholderLabel.text = "User Name"
+        userNameTextField.textColor = .white
         
     }
     
