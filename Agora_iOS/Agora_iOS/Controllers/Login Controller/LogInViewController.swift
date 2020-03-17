@@ -35,5 +35,9 @@ class LogInViewController: UIViewController {
         userNameTextField.dividerNormalColor = UIColor.systemOrange
         userNameTextField.dividerActiveColor = UIColor.systemOrange
         passwordTextField.addTarget(self, action: #selector(textFieldDidChange(textField:)), for: .editingChanged)
+        userNameTextField.placeholderLabel.text = "User Name"
+        userNameTextField.placeholderLabel.textColor = .white
+        passwordTextField.placeholderLabel.text = "Password"
+        passwordTextField.placeholderLabel.textColor = .white
     }
 }

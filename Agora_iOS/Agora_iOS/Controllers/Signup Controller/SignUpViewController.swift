@@ -53,6 +53,18 @@ class SignUpViewController: UIViewController {
         quesDropDownTextField.isOptionalDropDown = false
         quesDropDownTextField.itemList = [Constants.securityQuestions.quesOne, Constants.securityQuestions.quesTwo, Constants.securityQuestions.quesThree, Constants.securityQuestions.quesFour, Constants.securityQuestions.quesFive]
         Utilities.styleTextField(quesDropDownTextField)
+        firstNameTextField.placeholderLabel.text = "First Name"
+        firstNameTextField.placeholderLabel.textColor = .white
+        lastNameTextField.placeholderLabel.text = "Last Name"
+        lastNameTextField.placeholderLabel.textColor = .white
+        userNameTextField.placeholderLabel.text = "User Name"
+        userNameTextField.placeholderLabel.textColor = .white
+        passwordTextField.placeholderLabel.text = "Password"
+        passwordTextField.placeholderLabel.textColor = .white
+        emailTextField.placeholderLabel.text = "Email"
+        emailTextField.placeholderLabel.textColor = .white
+        ansTextField.placeholderLabel.text = "Write Your Answer here"
+        ansTextField.placeholderLabel.textColor = .white
     }
 
 }

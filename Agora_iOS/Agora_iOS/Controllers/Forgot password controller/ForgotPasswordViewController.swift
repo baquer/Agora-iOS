@@ -28,6 +28,9 @@ class ForgotPasswordViewController: UIViewController {
         sendLinkButton.layer.cornerRadius = 25.0
         userNameTextField.dividerNormalColor = UIColor.systemOrange
         userNameTextField.dividerActiveColor = UIColor.systemOrange
+        userNameTextField.placeholderLabel.textColor = .white
+        userNameTextField.placeholderLabel.text = "User Name"
+        
     }
     
     func resetPassword(_ params: [String: AnyObject], _ completion: @escaping(_ success: Bool, _ results: [String: AnyObject]?, _ error: String) -> Void) {
