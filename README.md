@@ -50,13 +50,15 @@ Run the app (⌘+R).and test it.
     <td><img src="/mockup/Splash.png" height = "500" width="500"></td>
     <td><img src="/mockup/InitialView.png" height = "500" width="500"></td>
   </tr>
-  <tr>
-    <td><img src="/mockup/Signup.png" height = "500" width="500"></td>
-    <td><img src="/Screenshots/Screenshot 2020-02-26 at 12.55.02 AM.png" height = "500" width="500"></td>
   </tr>
   <tr>
-    <td><img src="/Screenshots/Screenshot 2020-02-28 at 10.10.18 PM.png" height = "500" width="500"></td>
-    <td><img src="/Screenshots/Screenshot 2020-03-04 at 1.32.24 AM.png" height = "500" width="500"></td>
+    <td><img src="/mockup/Signup.png" height = "500" width="500"></td>
+    <td><img src="/Screenshots/Login.png" height = "500" width="250"></td>
+  </tr>
+  </tr>
+  <tr>
+    <td><img src="/Screenshots/ResetPassword.png" height = "500" width="250"></td>
+    <td><img src="/Screenshots/ResetP.png" height = "500" width="250"></td>
   </tr>
   </tr>
   </tr>
