@@ -21,22 +21,10 @@
     <td>Forgot Password second screen<img src="/mockup/ResetPasswordConfirmation.png" height = "500" width="500"></td>
   </tr>
   <tr>
-    <td>Home<img src="/mockup/ElectionsHome.png" height = "500" width="500"></td>
-  </tr>
-  <tr>
     <td>Election Details<img src="/mockup/ElectionDetails.png" height = "500" width="500"></td>
   </tr>
   <tr>
     <td>Election Details options<img src="/mockup/ElectionDetailsOptions.png" height = "500" width="500"></td>
-  </tr>
-  <tr>
-    <td>Create Elections<img src="/mockup/CreateElections.png" height = "500" width="500"></td>
-  </tr>
-  <tr>
-    <td>Candidates Details<img src="/mockup/CreateElections2.png" height = "500" width="500"></td>
-  </tr>
-  <tr>
-    <td>Choosing Voting Algorithm<img src="/mockup/VotingAlgo.png" height = "500" width="500"></td>
   </tr>
   <tr>
     <td>Casting Vote<img src="/mockup/VoteUser.png" height = "500" width="500"></td>
@@ -55,6 +43,36 @@
   </tr>
   <tr>
     <td>Conatct Us<img src="/mockup/ContactUs.png" height = "500" width="500"></td>
+  </tr>
+  <tr>
+    <td><img src="/mockup/Dashboard.png" height = "500" width="250"></td>
+  </tr>
+  </tr>
+  <tr>
+    <td><img src="/mockup/Dashboard1.png" height = "500" width="250"></td>
+  </tr>
+  </tr>
+  <tr>
+    <td><img src="/mockup/AddCandidates.png" height = "500" width="250"></td>
+  </tr>
+  </tr>
+  <tr>
+    <td><img src="/mockup/AddCandidates1.png" height = "500" width="250"></td>
+  </tr>
+  <tr>
+    <td><img src="/mockup/CreateElection1.png" height = "500" width="250"></td>
+  </tr>
+  <tr>
+    <td><img src="/mockup/CreateElection.png" height = "500" width="250"></td>
+  </tr>
+  <tr>
+    <td><img src="/mockup/AddCandidates2.png" height = "500" width="250"></td>
+  </tr>
+  <tr>
+    <td><img src="/mockup/VotingAlgorithm2.png" height = "500" width="250"></td>
+  </tr>
+  <tr>
+    <td><img src="/mockup/VotingAlgo.png" height = "500" width="250"></td>
   </tr>
   </tr>
   </tr>
