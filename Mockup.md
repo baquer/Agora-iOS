@@ -21,10 +21,10 @@
     <td>Forgot Password second screen<img src="/mockup/ResetPasswordConfirmation.png" height = "500" width="500"></td>
   </tr>
   <tr>
-    <td>Election Details<img src="/mockup/ElectionDetails.png" height = "500" width="500"></td>
+    <td>Election Details<img src="/mockup/Details.png" height = "500" width="250"></td>
   </tr>
   <tr>
-    <td>Election Details options<img src="/mockup/ElectionDetailsOptions.png" height = "500" width="500"></td>
+    <td>Election Details options<img src="/mockup/Details2.png" height = "500" width="250"></td>
   </tr>
   <tr>
     <td>Casting Vote<img src="/mockup/VoteUser.png" height = "500" width="500"></td>
