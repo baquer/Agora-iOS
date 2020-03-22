@@ -69,6 +69,9 @@
     <td><img src="/mockup/AddCandidates2.png" height = "500" width="250"></td>
   </tr>
   <tr>
+    <td><img src="/mockup/DeleteFeature.png" height = "500" width="250"></td>
+  </tr>
+  <tr>
     <td><img src="/mockup/VotingAlgorithm2.png" height = "500" width="250"></td>
   </tr>
   <tr>
