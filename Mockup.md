@@ -57,25 +57,19 @@
   </tr>
   </tr>
   <tr>
-    <td><img src="/mockup/AddCandidates1.png" height = "500" width="250"></td>
-  </tr>
-  <tr>
     <td><img src="/mockup/CreateElection1.png" height = "500" width="250"></td>
   </tr>
   <tr>
     <td><img src="/mockup/CreateElection.png" height = "500" width="250"></td>
   </tr>
   <tr>
-    <td><img src="/mockup/AddCandidates2.png" height = "500" width="250"></td>
+    <td><img src="/mockup/AddCan.png" height = "500" width="250"></td>
   </tr>
   <tr>
-    <td><img src="/mockup/DeleteFeature.png" height = "500" width="250"></td>
+    <td><img src="/mockup/VotingAlgoList.png" height = "500" width="250"></td>
   </tr>
   <tr>
-    <td><img src="/mockup/VotingAlgorithm2.png" height = "500" width="250"></td>
-  </tr>
-  <tr>
-    <td><img src="/mockup/VotingAlgo.png" height = "500" width="250"></td>
+    <td><img src="/mockup/VotingAlgoList2.png" height = "500" width="250"></td>
   </tr>
   </tr>
   </tr>
