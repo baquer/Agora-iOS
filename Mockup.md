@@ -71,6 +71,9 @@
   <tr>
     <td><img src="/mockup/VotingAlgoList2.png" height = "500" width="250"></td>
   </tr>
+  <tr>
+    <td><img src="/mockup/Options1.png" height = "500" width="250"></td>
+  </tr>
   </tr>
   </tr>
 </table>
