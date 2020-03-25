@@ -33,16 +33,19 @@
     <td>Invite voter<img src="/mockup/InviteVoters.png" height = "500" width="500"></td>
   </tr>
   <tr>
-    <td>See and edit profile<img src="/mockup/Profile.png" height = "500" width="500"></td>
+    <td>See and edit profile<img src="/mockup/Edit Profile.png" height = "500" width="250"></td>
   </tr>
   <tr>
-    <td>About Us<img src="/mockup/Aboutus.png" height = "500" width="500"></td>
+    <td>See and edit profile<img src="/mockup/menuView.png" height = "500" width="250"></td>
   </tr>
   <tr>
-    <td>Report Bug<img src="/mockup/ReportBug.png" height = "500" width="500"></td>
+    <td>About Us<img src="/mockup/Aboutus.png" height = "500" width="250"></td>
   </tr>
   <tr>
-    <td>Conatct Us<img src="/mockup/ContactUs.png" height = "500" width="500"></td>
+    <td>Report Bug<img src="/mockup/ReportBug.png" height = "500" width="250"></td>
+  </tr>
+  <tr>
+    <td>Conatct Us<img src="/mockup/ContactUs.png" height = "500" width="250"></td>
   </tr>
   <tr>
     <td><img src="/mockup/Dashboard.png" height = "500" width="250"></td>
